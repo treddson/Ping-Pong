@@ -9,3 +9,12 @@
 body {
   background-color: #ff9f7a;
 }
+
+.description {
+  width: 50%;
+}
+
+#sentenceTwo {
+  font-weight: bold;
+  font-size: 20px;
+}
