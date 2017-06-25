@@ -3,6 +3,8 @@ $(document).ready(function() {
 
     $("#returnSentence").show();
 
+    //user interface logic:
+
     var inputNum = $("input#inputNum").val();
 
     function someNum() {
@@ -17,6 +19,8 @@ $(document).ready(function() {
       return inputNum;
      }
     }
+
+    //business logic:
 
     $("#sentenceTwo").text(someNum);
 
