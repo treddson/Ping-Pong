@@ -10,7 +10,7 @@ body {
   background-color: #ff9f7a;
 }
 
-.description, ul, #inputNum, p {
+.description, ul, p, #inputNum {
   width: 50%;
   font-family: 'VT323';
   font-weight: bold;
@@ -19,6 +19,6 @@ body {
 
 #sentenceTwo {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
