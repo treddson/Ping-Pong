@@ -17,16 +17,13 @@
     <div class="form-showing">
       <form id="firstForm">
         <div class="form-group">
-          <label for="inputNum"><h2>Ping Pong!</h2></label>
+          <label for="inputNum"><h1>Ping Pong!</h1></label>
           <input id="inputNum" class="form-control" type="number" placeholder="Your number here">
         </div>
         <button type="submit" class="btn">Play</button>
       </form>
     </div><br>
 
-    <div id="returnSentence">
-      <p>Your numbers: <span id="sentenceTwo"></span></p>
-    </div>
 
     <p class="description">The user inputs a number and the program returns a range of numbers from 1 to the chosen number with the following exceptions:</p>
 
@@ -36,6 +33,9 @@
       <li>Numbers divisible by 15 are replaced with "pingpong"</li>
     </ul>
 
+    <div id="returnSentence">
+      <p class="result">Your result: </br><span id="sentenceTwo"></span></p>
+    </div>
   </div>
 
 </body>

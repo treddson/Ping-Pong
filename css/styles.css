@@ -22,3 +22,12 @@ body {
   font-size: 20px;
   color: white;
 }
+
+h1, .btn {
+  font-family: 'VT323';
+  font-weight: bold;
+}
+
+.result {
+  font-size: 25px;
+}
