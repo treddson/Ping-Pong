@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     //user interface logic:
 
-    var inputNum = $("input#inputNum").val();
+    let inputNum = $("input#inputNum").val();
 
     someNum = inputNum => {
 
@@ -21,7 +21,7 @@ $(document).ready(function() {
     }
 
 
-    for (var i = 1; i <= inputNum; i++){
+    for (let i = 1; i <= inputNum; i++){
       $("#sentenceTwo").append(someNum(i) + "<br />");
     }
     event.preventDefault();
